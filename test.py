@@ -2,7 +2,7 @@ from tkinter import *
 # Label = An area WIDGET that holds text and/ or an image within a window
 window = Tk()
 
-photo = PhotoImage(file='../Images/logo.png')
+photo = PhotoImage(file='./Images/logo.png')
 
 # window.geometry("420x820")
 window.config(background="#050A30")
