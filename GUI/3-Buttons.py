@@ -1,20 +1,20 @@
 from tkinter import *
-count = 1
-def click():
-    global count
-    count += 1
-    print(f"You Clicked the button {count - 1} times!")
+counter = 0
+def ClickButton():
+    global counter
+    counter += 1
+    print(f"Button was clicked {counter} times!")
 
 window = Tk()
+window.title("Buttons")
+window.geometry("420x420")
 
-button = Button(window,
-                text = "click me",
-                command=click,
-                font = ("Ubuntu Mono", 20),
-                bg = "black",
-                activebackground = "black",
-                fg = "green"
-                )
-button.pack()
+buttons = Button(window,
+                 text = "Click Me!",
+                 padx = 10,
+                 pady = 10,
+                 command = ClickButton,
+                 )
+buttons.pack()
 
 window.mainloop()
