@@ -1,3 +1,4 @@
-x = bool(0)
-print(type(x))
-print(x)
+food = ["Pizza", "Hamburger", "Hotdog"]
+
+for x in range(len(food)):
+    print(x)
