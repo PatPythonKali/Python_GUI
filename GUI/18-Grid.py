@@ -1,6 +1,6 @@
 from tkinter import *
 
 window = Tk()
-window.title("Grid Hehehehe")
+window.title("Grid")
 
 window.mainloop()
