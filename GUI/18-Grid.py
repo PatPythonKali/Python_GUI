@@ -1,4 +1,4 @@
-# New Vscode
+# New Vscode VcodeS Vss
 from tkinter import *
 
 window = Tk()
